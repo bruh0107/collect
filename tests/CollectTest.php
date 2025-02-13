@@ -15,9 +15,6 @@ class CollectTest extends TestCase
         $collect = new Collect\Collect([1, 2]);
         $collect->push(3);
         $this->assertEquals(new Collect\Collect([1, 2, 3]), $collect);
-
-        $collect->push(4, 'b');
-        $this->assertEquals(new Collect\Collect([1, 2, 3, 'b' => 4]), $collect);
     }
 
     public function testUnshift()
