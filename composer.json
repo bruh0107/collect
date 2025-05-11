@@ -1,0 +1,24 @@
+{
+    "name": "bruh0107/collect",
+    "description": "Module for working with arrays",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nastya",
+            "email": "anastasion0107@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
